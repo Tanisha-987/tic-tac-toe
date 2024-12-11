@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+
+    <div class="tic"><font>&#128937;&#128901;</font> Tic-Tac-Toe <font>&#128901;&#128937;</font></div>
+
+    <input type="button" class="restart" id="rs" value="Reset"onclick="reset(' ')">
+
+    <div class="player1">PLAYER : 1 = &#128937;</div>
+    <div class="player2">PLAYER : 2 = &#128901;</div>
+
+    <div class="main">
+
+        <input type="button" class="same" id="b1" title="btn" onclick="f1();result()">
+        <input type="button" class="same" id="b2" title="btn" onclick="f2();result()">
+        <input type="button" class="same" id="b3" title="btn" onclick="f3();result()">
+        <input type="button" class="same" id="b4" title="btn" onclick="f4();result()">
+        <input type="button" class="same" id="b5" title="btn" onclick="f5();result()">
+        <input type="button" class="same" id="b6" title="btn" onclick="f6();result()">
+        <input type="button" class="same" id="b7" title="btn" onclick="f7();result()">
+        <input type="button" class="same" id="b8" title="btn" onclick="f8();result()">
+        <input type="button" class="same" id="b9" title="btn" onclick="f9();result()">
+    </div>
+    
+    <div class="winner" id="X">X<hr>W<br>I<br>N<br>N<br>E<br>R</div>
+    <div class="winner2" id="O">O<hr>W<br>I<br>N<br>N<br>E<br>R</div>
+    <div class="draw" id="draw">D<br>R<br>A<br>W</div>
+
+    
+</body>
+</html>

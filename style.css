@@ -1,0 +1,179 @@
+body
+{
+    height: 80vh;
+    background-image:linear-gradient( rgb(251, 56, 98),rgb(218, 112, 158),rgb(220, 175, 197),rgb(157, 214, 243),rgb(93, 197, 249),rgb(1, 186, 248));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+font
+{
+    color: red;
+}
+.tic
+{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    width: 550px;
+    height: 70px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+    padding-bottom: 13px;
+}
+
+.player1
+{
+    position: absolute;
+    top: 220px;
+    left: 800px;
+    width: 220px;
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+}
+
+.player2
+{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    font-size: 30px;
+    padding: 5px;
+    width: 220px;
+    color: white;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+}
+
+.main
+{
+    margin-top: 210px;
+    margin-left: 330px;
+    height: 290px;
+    width: 290px;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+}
+
+.same
+{
+    height: 80px;
+    width: 80px;
+    margin-top: 12px;
+    margin-left: 10.5px;
+    border-radius: 15px;
+    border : 5px solid rgb(20, 255, 224);
+    background-color: white;
+    color:black;
+    font-size: 30px;   
+}
+
+.winner
+{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+    width: 60px;
+    height: 450px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+
+.winner2
+{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+    width: 60px;
+    height: 450px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+.draw
+{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+    width: 60px;
+    height: 220px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+.tie
+{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    outline: 6px solid black;
+    outline-offset: 10px;
+    width: 60px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+.restart
+{
+    position: absolute;
+    height: 60px;
+    width: 130px;
+    top: 450px;
+    left: 800px;
+    background-color: black;
+    border : 5px groove rgb(20, 255, 224);
+    box-shadow: 2px 3px 25px 1px rgb(20, 255, 224);
+    color:white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
